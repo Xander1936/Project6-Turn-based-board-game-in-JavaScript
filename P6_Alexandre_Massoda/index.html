@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="./css/style.css">  
+</head>	
+
+<body>
+  <div class="game" id="gamescreen" style="display: flex">
+      <!--Here is the Gameboard-->
+      <div class="wrapper" id="board"></div>
+      <!--Here the Game Dashboard starts-->
+      <div class="gamedashboard" id="dashboard">
+      <!-- Here the player1 dashboard start -->
+      <div class="player_scoreboard" id="player1_scoreboard">
+        
+          <div >
+              <img width="100" height="100" class="img-fluid" id="BatmanPicture" src="images/player1.png" alt="Batman">
+          </div>
+          
+          <div class="player1_health">
+            <div><h1>Player 1 - <span id="player1_name">Batman</span></h1></div>
+            <div><h3>Player1_Health: <span id="player1_health">100</span></h3></div>
+            <!-- <div class="hpBorder">
+              <div style="border: 3px solid maroon" id="batmanHpBar" class="hpBar"></div>
+            </div> -->
+            <progress id="player1_bar" class="hp_hopbar"  value="100" max="100"></progress>
+          </div>
+              
+          <div class="player1_weapon">
+            <div><h3>Weapon : <span id="player1_weapon">Knife</span></h3></div>
+          </div>
+
+          <div class="player1_damage">
+            <div><h3>Damage Points: <span id="player1_damage">5</span></h3></div>
+          </div>
+          
+          <div class="player1_defence">
+            <div><h3>Defence: <span id="player1_defence">off</span></h3></div>
+          </div>
+
+          <div style="display: none" id="player1_fightbuttons">
+            <button id="attack1" class="btnAttack" onclick="attack()">Attack</button>
+            <button id="defence1" class="btnDefence" onclick="defend()">Defend</button>
+          </div>
+        
+      </div>
+      <!-- Here the player1 dashboard ends -->
+      <!-- Here the player2 dashboard start -->
+        <div class="player_scoreboard" width="50" height="50" id="player2_scoreboard">
+        
+            <div >
+                <img width="100" height="100" class="img-fluid" id="MarioPicture" src="images/2223.png" alt="Mario">
+            </div>
+            
+            <div class="player2_health">
+              <div><h1>Player 2 - <span id="player2_name">Mario</span></h1></div>
+              <div><h3>Player2_Health: <span id="player2_health">100</span></h3></div>
+             <!--  <div class="hpBorder">
+                <div style="border: 3px solid maroon" id="marioHpBar" class="hpBar"></div>
+              </div> -->
+              <progress id="player2_bar" class="hp_hopbar"  value="100" max="100"></progress>
+            </div>
+                
+            <div class="player2_weapon">
+              <div><h3>Weapon : <span id="player2_weapon">Knife</span></h3></div>
+            </div>
+
+            <div class="player2_damage">
+              <div><h3>Damage Points: <span id="player2_damage">5</span></h3></div>
+            </div>
+            
+            <div class="player2_defence">
+              <div><h3>Defence: <span id="player2_defence">off</span></h3></div>
+            </div>
+
+            <div style="display: none" id="player2_fightbuttons">
+              <button id="attack2" class="btnAttack" onclick="attack()">Attack</button>
+              <button id="defence2" class="btnDefence" onclick="defend()">Defend</button>
+            </div>
+         
+        </div>
+      <!-- Here the player2 dashboard ends -->
+    </div>
+  </div>
+    
+    
+  <script src="./js/app.js"></script>
+
+</body>
+</html>
