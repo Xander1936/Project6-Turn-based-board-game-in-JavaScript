@@ -88,53 +88,53 @@ body {
     font-size: 125%;
 }
 .free {
-      background-image:url(../images/grass.png);
+      background-image:url(./grass.png);
 }
 
 .player1 {
-    background-image:url(../images/player1.png),url(../images/grass.png);
+    background-image:url(./player1.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
 }
   
 .player2 {
-    background-image:url(../images/player2.png),url(../images/grass.png);
+    background-image:url(./player2.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
 }
   
 .obstacle {
-    background-image:url(../images/obstacle.png),url(../images/grass.png);
+    background-image:url(./obstacle.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
 }
 
 .sword {
-    background-image:url(../images/sword.png),url(../images/grass.png);
+    background-image:url(./sword.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
 }
   
 .knife {
-    background-image:url(../images/knife.png),url(../images/grass.png);
+    background-image:url(./knife.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
 }
 
 .AK {
-    background-image:url(../images/AK.png),url(../images/grass.png);
+    background-image:url(./AK.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
 }
 
 .pistol {
-    background-image:url(../images/pistol.png),url(../images/grass.png);
+    background-image:url(./pistol.png),url(./grass.png);
     background-position: center, auto;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, auto;
